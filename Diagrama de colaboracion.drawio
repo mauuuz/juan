@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+  <diagram name="Página-1" id="1FrrM_wEHZCr4qCmEHY4">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tNos8iO2AzoAuGsj3XkW-1" value="cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="240" y="206" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tNos8iO2AzoAuGsj3XkW-2" value="Cajero ATM" style="html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="489" y="406" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tNos8iO2AzoAuGsj3XkW-3" value="Sistema" style="html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="820" y="581" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tNos8iO2AzoAuGsj3XkW-4" value="Banco" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="820" y="196" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tNos8iO2AzoAuGsj3XkW-6" value="01_Ingresar datos&lt;br&gt;04_Consulta saldo&lt;br&gt;06_Depositar dinero&lt;br&gt;07_Retirar dinero&lt;br&gt;08_Retirar tarjeta" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tNos8iO2AzoAuGsj3XkW-2" target="tNos8iO2AzoAuGsj3XkW-1">
+          <mxGeometry x="0.0027" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="276" as="sourcePoint" />
+            <mxPoint x="520" y="226" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNos8iO2AzoAuGsj3XkW-8" value="02_Envia datos" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="tNos8iO2AzoAuGsj3XkW-2" target="tNos8iO2AzoAuGsj3XkW-4">
+          <mxGeometry x="-0.0031" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="196" as="sourcePoint" />
+            <mxPoint x="430" y="146" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNos8iO2AzoAuGsj3XkW-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="950" y="340" as="sourcePoint" />
+            <mxPoint x="950" y="466" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNos8iO2AzoAuGsj3XkW-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="368" as="sourcePoint" />
+            <mxPoint x="470" y="414" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNos8iO2AzoAuGsj3XkW-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="350" as="sourcePoint" />
+            <mxPoint x="750" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNos8iO2AzoAuGsj3XkW-19" value="03_Valida datos&lt;br&gt;05_Actualiza sistema" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="tNos8iO2AzoAuGsj3XkW-3" target="tNos8iO2AzoAuGsj3XkW-4">
+          <mxGeometry x="0.003" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="456" as="sourcePoint" />
+            <mxPoint x="810" y="406" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
